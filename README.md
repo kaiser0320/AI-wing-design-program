@@ -1,25 +1,24 @@
-# AI Wing Design Program
+﻿# AI Wing Design Program
 
-Desktop AI assistant for wing design, airfoil review, and 3D export.
+AI 기반 날개 설계 프로그램의 배포용 저장소입니다.
 
-## Quick Start
+## 빠른 시작
 
-1. Open `artifacts/release/AI_Design_Program_Run`
-2. Run `WingDesignerAI.exe`
-3. In the app, open `AI 설정` and enter your API key
-4. Start chatting with your design requirements
+1. `artifacts/release/AI_Design_Program_Run` 폴더를 엽니다.
+2. `WingDesignerAI.exe`를 실행합니다.
+3. 앱 상단 `AI 설정`에서 API 키를 입력합니다.
+4. 채팅창에 설계 요구사항을 입력해 설계를 시작합니다.
 
-## Included in This Repository
+## 저장소 구성
 
-- Latest runnable package: `artifacts/release/AI_Design_Program_Run`
-- User guide (inside package): `artifacts/release/AI_Design_Program_Run/README.md`
+- 최신 실행 패키지: `artifacts/release/AI_Design_Program_Run`
+- 사용자 설명서: `artifacts/release/AI_Design_Program_Run/README.md`
 
-## Notes
+## 참고 사항
 
-- Runtime data is saved in `artifacts/release/AI_Design_Program_Run/data`
-- If the package folder is not writable, the app falls back to `%APPDATA%/WingDesignerAI`
+- 실행 중 데이터는 `artifacts/release/AI_Design_Program_Run/data`에 저장됩니다.
+- 패키지 폴더 쓰기 권한이 없으면 `%APPDATA%/WingDesignerAI`로 자동 저장됩니다.
 
-## Release Notes
+## 릴리즈 노트
 
-- See `RELEASE_NOTES.md`
-
+- `RELEASE_NOTES.md`를 확인하세요.
